@@ -1,0 +1,33 @@
+{
+  "name": "bls-web-of-trust",
+  "version": "0.1.0",
+  "description": "exploring use of bls signature aggregation in creating a pgp like web of trust",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "bls",
+    "key-generation",
+    "web-of-trust",
+    "signature-aggregation",
+    "pgp",
+    "rebooting-web-of-trust"
+  ],
+  "author": "Johns Beharry <johns@peakshift.com>",
+  "license": "ISC",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "@chainsafe/bls": "^1.0.0",
+    "ethers": "^4.0.47"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^26.0.1",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.8.3"
+  }
+}
